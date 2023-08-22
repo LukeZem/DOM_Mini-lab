@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#top-header {
+    font-style: italic;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#h1-hider {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+#h1-hider:hover {
+    background-color: crimson;
+}
+
+#h1-reveal {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#h1-reveal:hover {
+    background-color: crimson;
+}
